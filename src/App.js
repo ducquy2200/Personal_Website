@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import Project from './components/Project';
 import Reference from './components/Reference';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
       <Experience/>
       <Project/>
       <Reference/>
+      <Contact/>
     </>
   );
 }

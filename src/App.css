@@ -3,15 +3,18 @@
 :root {
   --primary-white: #fff;
   --primary-blue: #2397d6;
+  --primary-light-blue: #5fc7ff;
   --primary-hover-blue: #00a6ff;
   --primary-light-grey: #f4f4f4;
   --primary-grey:#ccd1d9;
   --primary-dark-grey:#666666;
   --primary-dark: rgba(255,255,255,0);
   --primary-red: #ef4035;
+  --primary-dark-red: #e41c0d;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
   --primary-transparent-grey: rgba(0,0,0,0.2);
+  --primary-green: rgb(10, 236, 10);
 }
 
 body {
@@ -393,14 +396,23 @@ nav ul li {
 }
 
 .myCarousel a {
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border: 1px solid var(--primary-blue);
   background-color: var(--primary-blue);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.627rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
-  margin: 2rem;
   text-decoration: none;
+}
+
+@media(max-width: 280px){
+  .myCarousel a {
+    font-size: 0.8rem !important;
+  }
 }
 
 .myCarousel a:hover {
@@ -426,3 +438,113 @@ nav ul li {
   margin-top: 3% !important;
 }
 
+.contact {
+  background: var(--primary-dark-grey);
+  padding: 3rem 0;
+}
+
+.contact h1 {
+  color: var(--primary-blue);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-grey);
+  border-radius: 0;
+  color: var(--primary-light-blue);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--primary-grey) !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--primary-grey) !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--primary-grey) !important;
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: transparent;
+  color: var(--primary-light-blue);
+  border-bottom: 0.125rem solid var(--primary-grey);
+}
+
+.contact textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+}
+
+.line {
+  position: relative;
+  top: -0.76rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-blue);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: var(--primary-dark-red);
+  text-align: left;
+  font-weight: 600 !important;
+}
+
+.success-message {
+  font-weight: 900;
+  color: var(--primary-green);
+}
+
+@media(max-width: 768px) {
+  .contact {
+    overflow-x: hidden;
+  }
+
+  .contact container {
+    padding: 0 1rem;
+  }
+
+  .contact p {
+    padding: 0 0.4rem;
+  }
+}
