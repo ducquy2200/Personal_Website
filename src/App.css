@@ -72,7 +72,7 @@ nav ul li {
   background: linear-gradient(135deg, rgb(134, 145, 172) 0%, rgb(35, 50, 87) 100%);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -129,7 +129,7 @@ nav ul li {
 
 .tsparticles-canvas-el {
   position: absolute;
-  height: 100vh;
+  height: 100vh !important;
   width: 100vh;
   z-index: 1;
 }
@@ -164,6 +164,7 @@ nav ul li {
   }
 }
 .experience {
+  background: var(--primary-light-grey);
   padding: 0.7rem;
 }
 
@@ -253,7 +254,6 @@ nav ul li {
 }
 
 .project-wrapper {
-  background: var(--primary-light-grey);
   padding: 3rem 0;
 }
 
@@ -318,6 +318,10 @@ nav ul li {
 
 .hyper-link:hover {
   color: var(--primary-red);
+}
+
+.popupbox-wrapper .popupbox-content p {
+  margin-top: 0.75rem;
 }
 
 @media(max-width: 950px) {

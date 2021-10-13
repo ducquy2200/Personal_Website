@@ -3,7 +3,7 @@ import ReferenceCarousel from './ReferenceCarousel';
 
 const Reference = () => {
     return (
-        <div className="reference">
+        <div id="reference" className="reference">
             <h1>References</h1>
             <div className="container">
                 <div className="reference-content">

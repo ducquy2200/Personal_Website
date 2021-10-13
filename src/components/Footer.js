@@ -1,5 +1,6 @@
 import React from 'react';
 import { FacebookShareButton, FacebookIcon, TwitterShareButton, TwitterIcon, RedditShareButton, RedditIcon, LinkedinShareButton, LinkedinIcon } from 'react-share';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -20,18 +21,18 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav" href="/#">Home</a>
+                                <Link smooth={true} offset={-110} to="home" className="footer-nav" href="/#">Home</Link>
                                 <br/>
-                                <a className="footer-nav" href="/#">About Me</a>
+                                <Link smooth={true} offset={-110} to="about" className="footer-nav" href="/#">About Me</Link>
                                 <br/>
-                                <a className="footer-nav" href="/#">Experiences</a>
+                                <Link smooth={true} offset={-110} to="experience" className="footer-nav" href="/#">Experiences</Link>
                             </div>
                             <div className="col">
-                                <a className="footer-nav" href="/#">Projects</a>
+                                <Link smooth={true} offset={-110} to="project" className="footer-nav" href="/#">Projects</Link>
                                 <br/>
-                                <a className="footer-nav" href="/#">References</a>
+                                <Link smooth={true} offset={-110} to="reference" className="footer-nav" href="/#">References</Link>
                                 <br/>
-                                <a className="footer-nav" href="/#">Contacts</a>
+                                <Link smooth={true} offset={-110} to="contact" className="footer-nav" href="/#">Contacts</Link>
                             </div>
                             <div className="col">
                                 <a className="footer-nav" href="https://www.linkedin.com/in/ducquy2200/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
