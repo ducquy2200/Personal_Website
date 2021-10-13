@@ -15,19 +15,21 @@ const Project = () => {
                 <img className="project-image-popupbox" src={project1} alt="project1" />
                 <p>random</p>
                 <b>GitHub: </b>
-                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/Stock_Webapp", "_blank")}>https://github.com/ducquy2200/Stock_Webapp</a>
+                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/Stock_Webapp", "_blank")} href='/#'>https://github.com/ducquy2200/Stock_Webapp</a>
             </>
         )
         PopupboxManager.open({content})
-    }
-
-    const popupboxConfigProject1 = {
-        titleBar: {
-            enable: true,
-            text: "Project 1"
-        },
-        faseIn: true,
-        faseInSpeed: 500
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Project 1"
+                },
+                faseIn: true,
+                faseInSpeed: 500
+            }
+        })
     }
 
     const openPopupboxProject2 = () => {
@@ -36,19 +38,21 @@ const Project = () => {
                 <img className="project-image-popupbox" src={project2} alt="project2" />
                 <p>random</p>
                 <b>GitHub: </b>
-                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/LooRider", "_blank")}>https://github.com/ducquy2200/LooRider</a>
+                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/LooRider", "_blank")} href='/#'>https://github.com/ducquy2200/LooRider</a>
             </>
         )
         PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigProject2 = {
-        titleBar: {
-            enable: true,
-            text: "Project 2"
-        },
-        faseIn: true,
-        faseInSpeed: 500
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Project 2"
+                },
+                faseIn: true,
+                faseInSpeed: 500
+            }
+        })
     }
 
     const openPopupboxProject3 = () => {
@@ -57,19 +61,21 @@ const Project = () => {
                 <img className="project-image-popupbox" src={project3} alt="project3" />
                 <p>random</p>
                 <b>GitHub: </b>
-                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/qchat-app", "_blank")}>https://github.com/ducquy2200/qchat-app</a>
+                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/qchat-app", "_blank")} href='/#'>https://github.com/ducquy2200/qchat-app</a>
             </>
         )
         PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigProject3 = {
-        titleBar: {
-            enable: true,
-            text: "Project 3"
-        },
-        faseIn: true,
-        faseInSpeed: 500
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Project 3"
+                },
+                faseIn: true,
+                faseInSpeed: 500
+            }
+        })
     }
 
     const openPopupboxProject4 = () => {
@@ -78,19 +84,21 @@ const Project = () => {
                 <img className="project-image-popupbox" src={project4} alt="project4" />
                 <p>random</p>
                 <b>GitHub: </b>
-                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/2048", "_blank")}>https://github.com/ducquy2200/2048</a>
+                <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/2048", "_blank")} href='/#'>https://github.com/ducquy2200/2048</a>
             </>
         )
         PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigProject4 = {
-        titleBar: {
-            enable: true,
-            text: "Project 4"
-        },
-        faseIn: true,
-        faseInSpeed: 500
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Project 4"
+                },
+                faseIn: true,
+                faseInSpeed: 500
+            }
+        })
     }
 
     return (
@@ -120,10 +128,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigProject1}/>
-            <PopupboxContainer {...popupboxConfigProject2} />
-            <PopupboxContainer {...popupboxConfigProject3} />
-            <PopupboxContainer {...popupboxConfigProject4} />
+            <PopupboxContainer/>
         </div>
     )
 }

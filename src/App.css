@@ -11,6 +11,7 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
+  --primary-transparent-grey: rgba(0,0,0,0.2);
 }
 
 body {
@@ -253,6 +254,11 @@ nav ul li {
   padding: 3rem 0;
 }
 
+.project-wrapper h1 {
+  color: var(--primary-blue);
+  text-transform: uppercase;
+}
+
 .project-image {
   width: 15rem;
   border: 1px solid var(--primary-blue);
@@ -336,3 +342,87 @@ nav ul li {
     width: 30%;
   }
 }
+
+.reference {
+  background-image: url(./components/media/reference-bg.jpg);
+  background-color: var(--primary-dark);
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.reference h1 {
+  color: var(--primary-blue);
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.reference-content {
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: var(--primary-transparent-grey);
+}
+
+.myCarousel {
+  color: var(--primary-white);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 17.875rem;
+}
+
+.myCarousel h3 {
+  color: var(--primary-blue);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
+.myCarousel p {
+  color: var(--primary-dark-grey);
+  padding-bottom: 1rem;
+}
+
+.myCarousel a {
+  border: 1px solid var(--primary-blue);
+  background-color: var(--primary-blue);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.627rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.myCarousel a:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-blue);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+.carousel .slide img {
+  width: 10rem !important;
+  border-radius: 50%;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
