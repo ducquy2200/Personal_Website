@@ -264,6 +264,7 @@ nav ul li {
 
 .project-image {
   width: 15rem;
+  height: 9rem;
   border: 1px solid var(--primary-blue);
   padding: 0.5rem 0.5rem;
 }
