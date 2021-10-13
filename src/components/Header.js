@@ -5,10 +5,11 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">\
-                <h1>web development and websites promotions</h1>
+                <h1>i'm quy duc do</h1>
+                <h1>welcome everyone to my personal website</h1>
                 <Typed
                     className="typed-text"
-                    strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+                    strings={["Software Engineer", "Full Stack Developer", "Mobile Developer", "Machine Learning Enthusiast"]}
                     typeSpeed={40}
                     backspeed={60}
                     loop

@@ -9,6 +9,7 @@ import Experience from './components/Experience';
 import Project from './components/Project';
 import Reference from './components/Reference';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       <Project/>
       <Reference/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
