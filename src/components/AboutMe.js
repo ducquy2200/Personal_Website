@@ -31,7 +31,7 @@ const AboutMe = () => {
                         <ul>
                             <li><b>Programming Languages:</b> JavaScript, PHP, Java, Dart, Python, C/C++, C#, Git, HTML/CSS, SQL, Elixir, Bash</li>
                             <li><b>Frontend:</b> React.js, Vue.js, Flutter, Boostrap, JQuery</li>
-                            <li><b>Backend/Database:</b> Node.js, Laravel, Selenium, Heroku, Django, Flutter, MySQL</li>
+                            <li><b>Backend/Database:</b> Node.js, Laravel, Selenium, Hibernate, Heroku, Django, Flutter, MySQL</li>
                             <li><b>Unit/Feature Testing:</b> PHPUnit, JUnit, Cypress</li>
                             <li><b>Hosting platform:</b> AWS, cPanel, Heroku, GitHub (Page)</li>
                             <li><b>Tools/Software:</b> Slack, Trello, Jira, Docker, cPanel, Postman, AWS, Azure, Git</li>
