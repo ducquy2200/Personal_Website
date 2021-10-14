@@ -118,6 +118,7 @@ nav ul li {
   color: var(--primary-white);
   margin: 2rem;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-main-offer:hover {
