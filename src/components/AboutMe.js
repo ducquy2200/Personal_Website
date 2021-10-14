@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
                     <p>
-                        I am a dedicated and hardworking 2nd Year Software Engineering student who has an inspiring desire to learn and improve in developing modern technology. I possess a continuous improving mindset and creativity which allows me to acquire success and productive results at both school and work. Here is a summary of my skills:
+                        I am a dedicated and hardworking 2nd Year Software Engineering student at University of Waterloo who has an inspiring desire to learn and improve in developing modern technology. I possess a continuous improving mindset and creativity which allows me to acquire success and productive results at both school and work. Here is a summary of my skills:
                     </p>
                     <p>
                         <ul>
@@ -29,9 +29,13 @@ const AboutMe = () => {
                     </p>
                     <p>
                         <ul>
-                            <li>Programming Languages: JavaScript, PHP, Java, Dart, Python, C/C++, C#, Git, HTML/CSS, SQL, Elixir, Bash</li>
-                            <li>Framework/Database: React.js, Vue.js, Node.js, Laravel, Selenium, Heroku, Django, Flutter, MySQL, JQuery</li>
-                            <li>Software/Other: Windows, Linux, VS Code, IntelliJ, Eclipse, Vim, Atom, Android Studio, cPanel, Postman, AWS</li>
+                            <li><b>Programming Languages:</b> JavaScript, PHP, Java, Dart, Python, C/C++, C#, Git, HTML/CSS, SQL, Elixir, Bash</li>
+                            <li><b>Frontend:</b> React.js, Vue.js, Flutter, Boostrap, JQuery</li>
+                            <li><b>Backend/Database:</b> Node.js, Laravel, Selenium, Heroku, Django, Flutter, MySQL</li>
+                            <li><b>Unit/Feature Testing:</b> PHPUnit, JUnit, Cypress</li>
+                            <li><b>Hosting platform:</b> AWS, cPanel, Heroku, GitHub (Page)</li>
+                            <li><b>Tools/Software:</b> Slack, Trello, Jira, Docker, cPanel, Postman, AWS, Azure, Git</li>
+                            <li><b>Text Editors:</b> VS Code, IntelliJ, Eclipse, Vim, Atom, Android Studio</li>
                         </ul>
                     </p>
                 </div>

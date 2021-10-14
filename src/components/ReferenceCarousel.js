@@ -20,7 +20,7 @@ const ReferenceCarousel = () => {
                 <img src={avatar1} alt="Jordan St Jacques"/>
                 <div className="myCarousel">
                     <h3>Jordan St Jacques</h3>
-                    <p>President of Digitera Interactive</p>
+                    <p>President and Lead Digital Marketer at Digitera Interactive</p>
                     <a href="https://www.linkedin.com/in/jordanstjacques/" target="_blank" rel="noopener noreferrer" className="reference-link">LinkedIn Profile</a>
                 </div>
             </>
@@ -36,7 +36,7 @@ const ReferenceCarousel = () => {
                 <img src={avatar3} alt="Joy Xu" />
                 <div className="myCarousel">
                     <h3>Joy Xu</h3>
-                    <p>Founder of Felicity</p>
+                    <p>Founder and Chief Executive Officer at Felicity</p>
                     <a href="https://www.linkedin.com/in/joyxuprofile/" target="_blank" rel="noopener noreferrer" className="reference-link">LinkedIn Profile</a>
                 </div>
             </>
@@ -44,7 +44,7 @@ const ReferenceCarousel = () => {
                 <img src={avatar4} alt="Almen Ng" />
                 <div className="myCarousel">
                     <h3>Almen Ng</h3>
-                    <p>Tech Lead at Felicity</p>
+                    <p>Tech Lead and Software Engineer at Felicity</p>
                     <a href="https://www.linkedin.com/in/almen-ng/" target="_blank" rel="noopener noreferrer" className="reference-link">LinkedIn Profile</a>
                 </div>
             </>
