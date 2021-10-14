@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ddquy.com/static/css/main.569ea9ea.chunk.css",
+    "main.css": "/ddquy.com/static/css/main.8f50d09f.chunk.css",
     "main.js": "/ddquy.com/static/js/main.834f7a47.chunk.js",
     "main.js.map": "/ddquy.com/static/js/main.834f7a47.chunk.js.map",
     "runtime-main.js": "/ddquy.com/static/js/runtime-main.82dbb162.js",
@@ -11,10 +11,10 @@
     "static/js/3.4a9fb447.chunk.js": "/ddquy.com/static/js/3.4a9fb447.chunk.js",
     "static/js/3.4a9fb447.chunk.js.map": "/ddquy.com/static/js/3.4a9fb447.chunk.js.map",
     "index.html": "/ddquy.com/index.html",
-    "precache-manifest.5bb402dd066b5525720d43b7cbb484c6.js": "/ddquy.com/precache-manifest.5bb402dd066b5525720d43b7cbb484c6.js",
+    "precache-manifest.c923e75c3102fc972ae83f0f821101d7.js": "/ddquy.com/precache-manifest.c923e75c3102fc972ae83f0f821101d7.js",
     "service-worker.js": "/ddquy.com/service-worker.js",
     "static/css/2.adc0603d.chunk.css.map": "/ddquy.com/static/css/2.adc0603d.chunk.css.map",
-    "static/css/main.569ea9ea.chunk.css.map": "/ddquy.com/static/css/main.569ea9ea.chunk.css.map",
+    "static/css/main.8f50d09f.chunk.css.map": "/ddquy.com/static/css/main.8f50d09f.chunk.css.map",
     "static/js/2.284ece54.chunk.js.LICENSE.txt": "/ddquy.com/static/js/2.284ece54.chunk.js.LICENSE.txt",
     "static/media/2048.gif": "/ddquy.com/static/media/2048.4d98ec31.gif",
     "static/media/Insta-bot.gif": "/ddquy.com/static/media/Insta-bot.e77e8845.gif",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.82dbb162.js",
     "static/css/2.adc0603d.chunk.css",
     "static/js/2.284ece54.chunk.js",
-    "static/css/main.569ea9ea.chunk.css",
+    "static/css/main.8f50d09f.chunk.css",
     "static/js/main.834f7a47.chunk.js"
   ]
 }
