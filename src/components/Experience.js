@@ -11,7 +11,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>May 2021 - Aug 2021</h3>
-                        <h4>Software Engineer at Walletifai</h4>
+                        <h4>Software Engineer | Back End Developer at Walletifai</h4>
                         <h5><b>Toronto, ON, Canada</b></h5>
                         <p>
                             <ul>
@@ -23,7 +23,7 @@ const Experience = () => {
                                 <li><b>Other skills:</b> Git (Github), AWS, Data Logs, Concurrency, Unit Test</li>
                             </ul>
                         </p>
-                        <h4>Software Engineer | Project Manager at Digitera Interactive</h4>
+                        <h4>Software Engineer | Project Manager/Full Stack Developer at Digitera Interactive</h4>
                         <h5><b>Ottawa, ON, Canada</b></h5>
                         <p>
                             <ul>
@@ -64,13 +64,26 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>Jun 2021 - Present</h3>
-                        <h4>Software Engineer at Felicity</h4>
+                        <h4>Software Engineer | Mobile Developer at Felicity</h4>
                         <h5><b>Waterloo, ON, Canada</b></h5>
                         <p>
                             <ul>
                                 <li>Developed core features for <b>Flutter</b> productivity mobile application using <b>Dart and Firebase</b> in collaboration with other developers</li>
                                 <li>Improved data loading efficiency and runtime by 300% resulted from decreasing widgets rebuilding frequency and changing widget state</li>
                                 <li>Implemented <b>16 complex animated components</b> using <b>Flutter</b> for universal usage within the app in the collaboration with research and design teams</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>Jan 2022 - Apr 2022</h3>
+                        <h4>Software Engineer | Data Analyst/Software Developer at City of Kitchener</h4>
+                        <h5><b>Waterloo, ON, Canada</b></h5>
+                        <p>
+                            <ul>
+                                <li>*To be updated</li>
                             </ul>
                         </p>
                     </div>
