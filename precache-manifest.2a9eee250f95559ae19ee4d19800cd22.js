@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6897cc7a8047bd75d1e85e9389dd0c69",
+    "revision": "e2cbeff6b56a780fe8f59bb78a428c21",
     "url": "/ddquy.com/index.html"
   },
   {
-    "revision": "46f995d56cd9fc657cb2",
+    "revision": "53b2096cb1db13c437b4",
     "url": "/ddquy.com/static/css/2.adc0603d.chunk.css"
   },
   {
-    "revision": "106839807a2f8c956609",
+    "revision": "2c004c8fadf1e1532e1d",
     "url": "/ddquy.com/static/css/main.8f50d09f.chunk.css"
   },
   {
-    "revision": "46f995d56cd9fc657cb2",
-    "url": "/ddquy.com/static/js/2.284ece54.chunk.js"
+    "revision": "53b2096cb1db13c437b4",
+    "url": "/ddquy.com/static/js/2.cf18ca65.chunk.js"
   },
   {
     "revision": "0e2a662d93b0eea03d05724231468383",
-    "url": "/ddquy.com/static/js/2.284ece54.chunk.js.LICENSE.txt"
+    "url": "/ddquy.com/static/js/2.cf18ca65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ec5ed1484b047373c72",
-    "url": "/ddquy.com/static/js/3.4a9fb447.chunk.js"
+    "revision": "097035ed8739378e1dad",
+    "url": "/ddquy.com/static/js/3.35d5d848.chunk.js"
   },
   {
-    "revision": "106839807a2f8c956609",
-    "url": "/ddquy.com/static/js/main.2bfdd543.chunk.js"
+    "revision": "2c004c8fadf1e1532e1d",
+    "url": "/ddquy.com/static/js/main.70b57793.chunk.js"
   },
   {
-    "revision": "1f8ec2ad76cfc933b5c9",
-    "url": "/ddquy.com/static/js/runtime-main.82dbb162.js"
+    "revision": "ac7079671e4d60e857d1",
+    "url": "/ddquy.com/static/js/runtime-main.f38503cf.js"
   },
   {
     "revision": "4d98ec3155a4e0f0b4d0232b2e0335e7",

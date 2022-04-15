@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/ddquy.com/static/css/main.8f50d09f.chunk.css",
-    "main.js": "/ddquy.com/static/js/main.2bfdd543.chunk.js",
-    "main.js.map": "/ddquy.com/static/js/main.2bfdd543.chunk.js.map",
-    "runtime-main.js": "/ddquy.com/static/js/runtime-main.82dbb162.js",
-    "runtime-main.js.map": "/ddquy.com/static/js/runtime-main.82dbb162.js.map",
+    "main.js": "/ddquy.com/static/js/main.70b57793.chunk.js",
+    "main.js.map": "/ddquy.com/static/js/main.70b57793.chunk.js.map",
+    "runtime-main.js": "/ddquy.com/static/js/runtime-main.f38503cf.js",
+    "runtime-main.js.map": "/ddquy.com/static/js/runtime-main.f38503cf.js.map",
     "static/css/2.adc0603d.chunk.css": "/ddquy.com/static/css/2.adc0603d.chunk.css",
-    "static/js/2.284ece54.chunk.js": "/ddquy.com/static/js/2.284ece54.chunk.js",
-    "static/js/2.284ece54.chunk.js.map": "/ddquy.com/static/js/2.284ece54.chunk.js.map",
-    "static/js/3.4a9fb447.chunk.js": "/ddquy.com/static/js/3.4a9fb447.chunk.js",
-    "static/js/3.4a9fb447.chunk.js.map": "/ddquy.com/static/js/3.4a9fb447.chunk.js.map",
+    "static/js/2.cf18ca65.chunk.js": "/ddquy.com/static/js/2.cf18ca65.chunk.js",
+    "static/js/2.cf18ca65.chunk.js.map": "/ddquy.com/static/js/2.cf18ca65.chunk.js.map",
+    "static/js/3.35d5d848.chunk.js": "/ddquy.com/static/js/3.35d5d848.chunk.js",
+    "static/js/3.35d5d848.chunk.js.map": "/ddquy.com/static/js/3.35d5d848.chunk.js.map",
     "index.html": "/ddquy.com/index.html",
-    "precache-manifest.619fad7ed5d6d3c5081ff706d5e59aeb.js": "/ddquy.com/precache-manifest.619fad7ed5d6d3c5081ff706d5e59aeb.js",
+    "precache-manifest.2a9eee250f95559ae19ee4d19800cd22.js": "/ddquy.com/precache-manifest.2a9eee250f95559ae19ee4d19800cd22.js",
     "service-worker.js": "/ddquy.com/service-worker.js",
     "static/css/2.adc0603d.chunk.css.map": "/ddquy.com/static/css/2.adc0603d.chunk.css.map",
     "static/css/main.8f50d09f.chunk.css.map": "/ddquy.com/static/css/main.8f50d09f.chunk.css.map",
-    "static/js/2.284ece54.chunk.js.LICENSE.txt": "/ddquy.com/static/js/2.284ece54.chunk.js.LICENSE.txt",
+    "static/js/2.cf18ca65.chunk.js.LICENSE.txt": "/ddquy.com/static/js/2.cf18ca65.chunk.js.LICENSE.txt",
     "static/media/2048.gif": "/ddquy.com/static/media/2048.4d98ec31.gif",
     "static/media/Insta-bot.gif": "/ddquy.com/static/media/Insta-bot.e77e8845.gif",
     "static/media/almen-ng.jpg": "/ddquy.com/static/media/almen-ng.36d69819.jpg",
@@ -32,10 +32,10 @@
     "static/media/stockPlatform.gif": "/ddquy.com/static/media/stockPlatform.6923a163.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.82dbb162.js",
+    "static/js/runtime-main.f38503cf.js",
     "static/css/2.adc0603d.chunk.css",
-    "static/js/2.284ece54.chunk.js",
+    "static/js/2.cf18ca65.chunk.js",
     "static/css/main.8f50d09f.chunk.css",
-    "static/js/main.2bfdd543.chunk.js"
+    "static/js/main.70b57793.chunk.js"
   ]
 }
