@@ -6,32 +6,32 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
             <div className="container">
-                <a class="navbar-brand" href="https://ducquy2200.github.io/ddquy.com/"><img className="logo" src={logo} alt="logo..." /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a className="navbar-brand" href="https://ducquy2200.github.io/ddquy.com/"><img className="logo" src={logo} alt="logo..." /></a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color:"#fff" }}/>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active">
-                            <Link smooth={true} offset={-110} to="home" class="nav-link">Home</Link>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item active">
+                            <Link smooth={true} offset={-110} to="home" className="nav-link">Home</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link smooth={true} offset={-110} to="about" class="nav-link">About Me</Link>
+                        <li className="nav-item">
+                            <Link smooth={true} offset={-110} to="about" className="nav-link">About Me</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link smooth={true} offset={-110} to="experience" class="nav-link">Experiences</Link>
+                        <li className="nav-item">
+                            <Link smooth={true} offset={-110} to="experience" className="nav-link">Experiences</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link smooth={true} offset={-110} to="project" class="nav-link">Projects</Link>
+                        <li className="nav-item">
+                            <Link smooth={true} offset={-110} to="project" className="nav-link">Projects</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link smooth={true} offset={-110} to="reference" class="nav-link">References</Link>
+                        <li className="nav-item">
+                            <Link smooth={true} offset={-110} to="reference" className="nav-link">References</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link smooth={true} offset={-110} to="contact" class="nav-link">Contacts</Link>
+                        <li className="nav-item">
+                            <Link smooth={true} offset={-110} to="contact" className="nav-link">Contacts</Link>
                         </li>
                     </ul>
                 </div>
