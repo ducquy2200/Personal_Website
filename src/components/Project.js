@@ -1,11 +1,12 @@
 import React from 'react';
-import project1 from './media/stockPlatform.gif';
-import project2 from './media/looRider.gif';
-import project3 from './media/q-chat.gif';
-import project4 from './media/dj-manager.gif';
-import project5 from './media/2048.gif';
-import project6 from './media/Insta-bot.gif';
-import project7 from './media/flappy-bird.gif';
+import project1 from './media/landmark.gif';
+import project2 from './media/stockPlatform.gif';
+import project3 from './media/looRider.gif';
+import project4 from './media/q-chat.gif';
+import project5 from './media/dj-manager.gif';
+import project6 from './media/2048.gif';
+import project7 from './media/Insta-bot.gif';
+import project8 from './media/flappy-bird.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
@@ -16,12 +17,36 @@ const Project = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={project1} alt="project1" />
-                <p>
-                    <ul>
-                        <li>A web application which features real time stock statistics and makes possible predictions based on past and current prices</li>
-                        <li>Data is scrapped from Yahoo Finance using <b>Pandas and Beautiful Soup</b>, displayed basic info on browser using <b>Matplotlib and Mplfinance</b>, and used <b>Long Short Term Memory</b> (<b>LSTM</b> – implemented using <b>Tensorflow</b>) to predict future stock prices</li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>LandmARk is an Augmented Reality platform, designed to allow the City of Kitchener to create and administrate AR experiences concentrated in designated areas.</li>
+                    <li>The application allows adminstrative users to create experiences, and attach landmarks to them. These landmarks have their own associated 3D models, and will show up at the coordinates entered, once the experience is activated by end-users.</li>
+                    <li>Front end is developed using <b>HTML/CSS and Javascript with support of AR.js</b> with user friendly interaction and the back end is built using <b>Django (Python) and Google Cloud Platform</b> with a secure connection to <b>AWS database service</b></li>
+                </ul>
+                <b>Demo: </b>
+                <a className="hyper-link" onClick={() => window.open("https://landmark.kitchener.ca/landmarks", "_blank")} href='/#'>https://landmark.kitchener.ca/landmarks</a>
+            </>
+        )
+        PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Landmark Augmented Reality Web Applcation"
+                },
+                faseIn: true,
+                faseInSpeed: 500
+            }
+        })
+    }
+    const openPopupboxProject2 = () => {
+        const content = (
+            <>
+                <img className="project-image-popupbox" src={project2} alt="project2" />
+                <ul>
+                    <li>A web application which features real time stock statistics and makes possible predictions based on past and current prices</li>
+                    <li>Data is scrapped from Yahoo Finance using <b>Pandas and Beautiful Soup</b>, displayed basic info on browser using <b>Matplotlib and Mplfinance</b>, and used <b>Long Short Term Memory</b> (<b>LSTM</b> – implemented using <b>Tensorflow</b>) to predict future stock prices</li>
+                </ul>
                 <b>GitHub: </b>
                 <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/Stock_Webapp", "_blank")} href='/#'>https://github.com/ducquy2200/Stock_Webapp</a>
             </>
@@ -40,16 +65,14 @@ const Project = () => {
         })
     }
 
-    const openPopupboxProject2 = () => {
+    const openPopupboxProject3 = () => {
         const content = (
             <>
-                <img className="project-image-popupbox" src={project2} alt="project2" />
-                <p>
-                    <ul>
-                        <li>A model of how an autonomous car can be directed by a satellite using computer vision to optimize the path taken by vehicles</li>
-                        <li>A self-driving Arduino car which finds the shortest path by using <b>OpenCV</b> to analyzing the picture of the map and uses <b>A-star algorithm</b> to find the most efficient path in addition to a visualization using <b>Pygame</b></li>
-                    </ul>
-                </p>
+                <img className="project-image-popupbox" src={project3} alt="project3" />
+                <ul>
+                    <li>A model of how an autonomous car can be directed by a satellite using computer vision to optimize the path taken by vehicles</li>
+                    <li>A self-driving Arduino car which finds the shortest path by using <b>OpenCV</b> to analyzing the picture of the map and uses <b>A-star algorithm</b> to find the most efficient path in addition to a visualization using <b>Pygame</b></li>
+                </ul>
                 <b>GitHub: </b>
                 <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/LooRider", "_blank")} href='/#'>https://github.com/ducquy2200/LooRider</a>
             </>
@@ -68,16 +91,14 @@ const Project = () => {
         })
     }
 
-    const openPopupboxProject3 = () => {
+    const openPopupboxProject4 = () => {
         const content = (
             <>
-                <img className="project-image-popupbox" src={project3} alt="project3" />
-                <p>
-                    <ul>
-                        <li>A web application which allows multiple users to send texts and make friends with each other</li>
-                        <li>Front end is developed using <b>HTML/CSS and Python</b> with user friendly interaction and the back end is built using <b>SocketIO, Flask and Javascript</b> with a secure connection to <b>Heroku database</b></li>
-                    </ul>
-                </p>
+                <img className="project-image-popupbox" src={project4} alt="project4" />
+                <ul>
+                    <li>A web application which allows multiple users to send texts and make friends with each other</li>
+                    <li>Front end is developed using <b>HTML/CSS and Python</b> with user friendly interaction and the back end is built using <b>SocketIO, Flask and Javascript</b> with a secure connection to <b>Heroku database</b></li>
+                </ul>
                 <b>Demo: </b>
                 <a className="hyper-link" onClick={() => window.open("https://qchat-application.herokuapp.com", "_blank")} href='/#'>https://qchat-application.herokuapp.com</a>
                 <br/>
@@ -99,16 +120,14 @@ const Project = () => {
         })
     }
 
-    const openPopupboxProject4 = () => {
+    const openPopupboxProject5 = () => {
         const content = (
             <>
-                <img className="project-image-popupbox" src={project4} alt="project4" />
-                <p>
-                    <ul>
-                        <li>A web application which allows users to manage clients, events, etc (especially designed for DJs)</li>
-                        <li>Front end is developed with Javascript using <b>Vue.js framework</b> (very user friendly) and the back end is built using <b>PHP with MySQL database</b> with RESTful API built from scratch and hosted through <b>FTP</b> on <b>cPanel</b></li>
-                    </ul>
-                </p>
+                <img className="project-image-popupbox" src={project5} alt="project5" />
+                <ul>
+                    <li>A web application which allows users to manage clients, events, etc (especially designed for DJs)</li>
+                    <li>Front end is developed with Javascript using <b>Vue.js framework</b> (very user friendly) and the back end is built using <b>PHP with MySQL database</b> with RESTful API built from scratch and hosted through <b>FTP</b> on <b>cPanel</b></li>
+                </ul>
                 <b>Demo: </b>
                 <a className="hyper-link" onClick={() => window.open("https://app.discjockeymanager.com", "_blank")} href='/#'>https://app.discjockeymanager.com</a>
             </>
@@ -127,16 +146,14 @@ const Project = () => {
         })
     }
 
-    const openPopupboxProject5 = () => {
+    const openPopupboxProject6 = () => {
         const content = (
             <>
-                <img className="project-image-popupbox" src={project5} alt="project5" />
-                <p>
-                    <ul>
-                        <li>A full-fledged functional 2048 game built under principle of OOP</li>
-                        <li>The game was built using <b>Java</b> with <b>Flask framework</b> to give visual appeal and user-friendly vibes</li>
-                    </ul>
-                </p>
+                <img className="project-image-popupbox" src={project6} alt="project6" />
+                <ul>
+                    <li>A full-fledged functional 2048 game built under principle of OOP</li>
+                    <li>The game was built using <b>Java</b> with <b>Flask framework</b> to give visual appeal and user-friendly vibes</li>
+                </ul>
                 <b>GitHub: </b>
                 <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/2048", "_blank")} href='/#'>https://github.com/ducquy2200/2048</a>
             </>
@@ -155,16 +172,14 @@ const Project = () => {
         })
     }
 
-    const openPopupboxProject6 = () => {
+    const openPopupboxProject7 = () => {
         const content = (
             <>
-                <img className="project-image-popupbox" src={project6} alt="project6" />
-                <p>
-                    <ul>
-                        <li>A simple but function Instagram bot which can be used to track who you follow but do not follow you back</li>
-                        <li>The application was built using <b>Python</b> and <b>Selenium framework with Chrome Webdriver</b> to be fully automated</li>
-                    </ul>
-                </p>
+                <img className="project-image-popupbox" src={project7} alt="project7" />
+                <ul>
+                    <li>A simple but function Instagram bot which can be used to track who you follow but do not follow you back</li>
+                    <li>The application was built using <b>Python</b> and <b>Selenium framework with Chrome Webdriver</b> to be fully automated</li>
+                </ul>
                 <b>GitHub: </b>
                 <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/Insta_Bot", "_blank")} href='/#'>https://github.com/ducquy2200/Insta_Bot</a>
             </>
@@ -183,16 +198,14 @@ const Project = () => {
         })
     }
 
-    const openPopupboxProject7 = () => {
+    const openPopupboxProject8 = () => {
         const content = (
             <>
-                <img className="project-image-popupbox" src={project7} alt="project7" />
-                <p>
-                    <ul>
-                        <li>A mock-up of the famous game Flappy Bird with fully functional and 100% match with original sounds and animations</li>
-                        <li>The game was built using <b>Python with Pygame</b> while also is planned to have <b> Tensorflow AI/ML NEAT</b> to make it play by itself</li>
-                    </ul>
-                </p>
+                <img className="project-image-popupbox" src={project8} alt="project8" />
+                <ul>
+                    <li>A mock-up of the famous game Flappy Bird with fully functional and 100% match with original sounds and animations</li>
+                    <li>The game was built using <b>Python with Pygame</b> while also is planned to have <b> Tensorflow AI/ML NEAT</b> to make it play by itself</li>
+                </ul>
                 <b>GitHub: </b>
                 <a className="hyper-link" onClick={() => window.open("https://github.com/ducquy2200/Flappy_Bird", "_blank")} href='/#'>https://github.com/ducquy2200/Flappy_Bird</a>
             </>
@@ -248,6 +261,11 @@ const Project = () => {
                     </div>
                     <div className="project-image-box" onClick={openPopupboxProject7}>
                         <img className="project-image" src={project7} alt="project7" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
+                    </div>
+                    <div className="project-image-box" onClick={openPopupboxProject8}>
+                        <img className="project-image" src={project8} alt="project8" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
                     </div>
