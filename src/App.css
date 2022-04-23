@@ -308,6 +308,8 @@ nav ul li {
 }
 
 .project-image-popupbox {
+  display: block;
+  margin: auto;
   width:45rem;
   padding: 0 0.5rem;
 }
