@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2cbeff6b56a780fe8f59bb78a428c21",
+    "revision": "8e1ce51f6f529f9111eb635702a02b97",
     "url": "/ddquy.com/index.html"
   },
   {
-    "revision": "53b2096cb1db13c437b4",
+    "revision": "fab064019c805b47b049",
     "url": "/ddquy.com/static/css/2.adc0603d.chunk.css"
   },
   {
-    "revision": "2c004c8fadf1e1532e1d",
-    "url": "/ddquy.com/static/css/main.8f50d09f.chunk.css"
+    "revision": "e0d9a31753a9aa7af71b",
+    "url": "/ddquy.com/static/css/main.cba352c8.chunk.css"
   },
   {
-    "revision": "53b2096cb1db13c437b4",
-    "url": "/ddquy.com/static/js/2.cf18ca65.chunk.js"
+    "revision": "fab064019c805b47b049",
+    "url": "/ddquy.com/static/js/2.f4400daa.chunk.js"
   },
   {
     "revision": "0e2a662d93b0eea03d05724231468383",
-    "url": "/ddquy.com/static/js/2.cf18ca65.chunk.js.LICENSE.txt"
+    "url": "/ddquy.com/static/js/2.f4400daa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "097035ed8739378e1dad",
-    "url": "/ddquy.com/static/js/3.35d5d848.chunk.js"
+    "revision": "b777571cff64d7c8e3c1",
+    "url": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js"
   },
   {
-    "revision": "2c004c8fadf1e1532e1d",
-    "url": "/ddquy.com/static/js/main.70b57793.chunk.js"
+    "revision": "e0d9a31753a9aa7af71b",
+    "url": "/ddquy.com/static/js/main.416ce4f2.chunk.js"
   },
   {
-    "revision": "ac7079671e4d60e857d1",
-    "url": "/ddquy.com/static/js/runtime-main.f38503cf.js"
+    "revision": "9c068ba87a5b1a8b74f5",
+    "url": "/ddquy.com/static/js/runtime-main.87e9269f.js"
   },
   {
     "revision": "4d98ec3155a4e0f0b4d0232b2e0335e7",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8a17f76b4030a0d5b336e3150c0f760",
     "url": "/ddquy.com/static/media/joy-xu.b8a17f76.jpg"
+  },
+  {
+    "revision": "9bb2a482abb52acdca927844abd88521",
+    "url": "/ddquy.com/static/media/landmark.9bb2a482.gif"
   },
   {
     "revision": "cb1856c0c6e4d5b27a32028b1bc35b87",
