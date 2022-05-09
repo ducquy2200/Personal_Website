@@ -72,7 +72,12 @@ const Experience = () => {
                         <h4>Software Engineer | Data Analyst/Software Developer at City of Kitchener</h4>
                         <h5><b>Waterloo, ON, Canada</b></h5>
                         <ul>
-                            <li>*To be updated</li>
+                            <li>Developed a location-based Augmented Reality web application from scratch to production deployment using <b>Django, AR.js, SQLite, PostgreSQL, AWS (S3, RDS, and Lightsail) and Google Cloud (Maps API) services, and Linux server hosting (Gunicorn and Nginx)</b></li>
+                            <li>Analyzed data from more than 600 active vehicles and used the output to guide strategies for tackling fuel optimization and user behaviour, decreased fuel consumption rate by 20% and decreased idling time by 30%</li>
+                            <li>Applied algorithm and parallel programming knowledge in solving problems and optimizing data collection algorithm resulting in an 85% improvement in runtime speed</li>
+                            <li>Utilized transfer learning technique to implement a pothole detection pipeline using <b>Jupiter Notebook, Tensorflow Object Detection API</b> and Kitchener's 360-degree image pothole private datasets</li>
+                            <li>Constructed linear regression time-series pipeline from Kitchener's Geotab datasets using <b>Jupiter Notebook and Scikit-learn</b> to predict future trends in runtime usage in relation to the variation of the task application</li>
+                            <li>Created prototype sample of snow level detection with realtime data feed and representation using <b>Raspberry Pi, Ultrasonic Sensor, AWS S3, and Power Bi</b></li>
                         </ul>
                     </div>
                 </div>
