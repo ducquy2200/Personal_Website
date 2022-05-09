@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ddquy.com/static/css/main.cba352c8.chunk.css",
-    "main.js": "/ddquy.com/static/js/main.416ce4f2.chunk.js",
-    "main.js.map": "/ddquy.com/static/js/main.416ce4f2.chunk.js.map",
+    "main.js": "/ddquy.com/static/js/main.75c5c6ed.chunk.js",
+    "main.js.map": "/ddquy.com/static/js/main.75c5c6ed.chunk.js.map",
     "runtime-main.js": "/ddquy.com/static/js/runtime-main.87e9269f.js",
     "runtime-main.js.map": "/ddquy.com/static/js/runtime-main.87e9269f.js.map",
     "static/css/2.adc0603d.chunk.css": "/ddquy.com/static/css/2.adc0603d.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.4ef6c8a1.chunk.js": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js",
     "static/js/3.4ef6c8a1.chunk.js.map": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js.map",
     "index.html": "/ddquy.com/index.html",
-    "precache-manifest.87ba9b88f6a78903ed20c43ea522b212.js": "/ddquy.com/precache-manifest.87ba9b88f6a78903ed20c43ea522b212.js",
+    "precache-manifest.523174de0ab9e12839e2d653eaf4bdd9.js": "/ddquy.com/precache-manifest.523174de0ab9e12839e2d653eaf4bdd9.js",
     "service-worker.js": "/ddquy.com/service-worker.js",
     "static/css/2.adc0603d.chunk.css.map": "/ddquy.com/static/css/2.adc0603d.chunk.css.map",
     "static/css/main.cba352c8.chunk.css.map": "/ddquy.com/static/css/main.cba352c8.chunk.css.map",
@@ -37,6 +37,6 @@
     "static/css/2.adc0603d.chunk.css",
     "static/js/2.f4400daa.chunk.js",
     "static/css/main.cba352c8.chunk.css",
-    "static/js/main.416ce4f2.chunk.js"
+    "static/js/main.75c5c6ed.chunk.js"
   ]
 }

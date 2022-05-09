@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e1ce51f6f529f9111eb635702a02b97",
+    "revision": "a7c87e114a7be4cf171536287f1469bf",
     "url": "/ddquy.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ddquy.com/static/css/2.adc0603d.chunk.css"
   },
   {
-    "revision": "e0d9a31753a9aa7af71b",
+    "revision": "325eb4e0f00e66482d2a",
     "url": "/ddquy.com/static/css/main.cba352c8.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js"
   },
   {
-    "revision": "e0d9a31753a9aa7af71b",
-    "url": "/ddquy.com/static/js/main.416ce4f2.chunk.js"
+    "revision": "325eb4e0f00e66482d2a",
+    "url": "/ddquy.com/static/js/main.75c5c6ed.chunk.js"
   },
   {
     "revision": "9c068ba87a5b1a8b74f5",
