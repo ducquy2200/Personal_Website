@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7c87e114a7be4cf171536287f1469bf",
+    "revision": "989c2bef03c85f5e85071a695bdf0fc7",
     "url": "/ddquy.com/index.html"
   },
   {
-    "revision": "fab064019c805b47b049",
+    "revision": "c436444bcc2dbdaa37c8",
     "url": "/ddquy.com/static/css/2.adc0603d.chunk.css"
   },
   {
-    "revision": "325eb4e0f00e66482d2a",
+    "revision": "f85f664ed8e559ed1f8d",
     "url": "/ddquy.com/static/css/main.cba352c8.chunk.css"
   },
   {
-    "revision": "fab064019c805b47b049",
-    "url": "/ddquy.com/static/js/2.f4400daa.chunk.js"
+    "revision": "c436444bcc2dbdaa37c8",
+    "url": "/ddquy.com/static/js/2.643012ec.chunk.js"
   },
   {
     "revision": "0e2a662d93b0eea03d05724231468383",
-    "url": "/ddquy.com/static/js/2.f4400daa.chunk.js.LICENSE.txt"
+    "url": "/ddquy.com/static/js/2.643012ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b777571cff64d7c8e3c1",
-    "url": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js"
+    "revision": "3ba5b76b0aa07ced3be7",
+    "url": "/ddquy.com/static/js/3.7274e60e.chunk.js"
   },
   {
-    "revision": "325eb4e0f00e66482d2a",
-    "url": "/ddquy.com/static/js/main.75c5c6ed.chunk.js"
+    "revision": "f85f664ed8e559ed1f8d",
+    "url": "/ddquy.com/static/js/main.207c5e43.chunk.js"
   },
   {
-    "revision": "9c068ba87a5b1a8b74f5",
-    "url": "/ddquy.com/static/js/runtime-main.87e9269f.js"
+    "revision": "2dba3e0fdfd891c647a3",
+    "url": "/ddquy.com/static/js/runtime-main.bbc8eb8e.js"
   },
   {
     "revision": "4d98ec3155a4e0f0b4d0232b2e0335e7",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "36d69819d9d18d1804f408757765aaf7",
     "url": "/ddquy.com/static/media/almen-ng.36d69819.jpg"
+  },
+  {
+    "revision": "1aa802f6eb94b98c8227d33fed8302bd",
+    "url": "/ddquy.com/static/media/andrew-rosselet.1aa802f6.jpg"
   },
   {
     "revision": "3633f02fab6d92f2184435c60d7bdb9f",

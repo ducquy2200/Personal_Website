@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/ddquy.com/static/css/main.cba352c8.chunk.css",
-    "main.js": "/ddquy.com/static/js/main.75c5c6ed.chunk.js",
-    "main.js.map": "/ddquy.com/static/js/main.75c5c6ed.chunk.js.map",
-    "runtime-main.js": "/ddquy.com/static/js/runtime-main.87e9269f.js",
-    "runtime-main.js.map": "/ddquy.com/static/js/runtime-main.87e9269f.js.map",
+    "main.js": "/ddquy.com/static/js/main.207c5e43.chunk.js",
+    "main.js.map": "/ddquy.com/static/js/main.207c5e43.chunk.js.map",
+    "runtime-main.js": "/ddquy.com/static/js/runtime-main.bbc8eb8e.js",
+    "runtime-main.js.map": "/ddquy.com/static/js/runtime-main.bbc8eb8e.js.map",
     "static/css/2.adc0603d.chunk.css": "/ddquy.com/static/css/2.adc0603d.chunk.css",
-    "static/js/2.f4400daa.chunk.js": "/ddquy.com/static/js/2.f4400daa.chunk.js",
-    "static/js/2.f4400daa.chunk.js.map": "/ddquy.com/static/js/2.f4400daa.chunk.js.map",
-    "static/js/3.4ef6c8a1.chunk.js": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js",
-    "static/js/3.4ef6c8a1.chunk.js.map": "/ddquy.com/static/js/3.4ef6c8a1.chunk.js.map",
+    "static/js/2.643012ec.chunk.js": "/ddquy.com/static/js/2.643012ec.chunk.js",
+    "static/js/2.643012ec.chunk.js.map": "/ddquy.com/static/js/2.643012ec.chunk.js.map",
+    "static/js/3.7274e60e.chunk.js": "/ddquy.com/static/js/3.7274e60e.chunk.js",
+    "static/js/3.7274e60e.chunk.js.map": "/ddquy.com/static/js/3.7274e60e.chunk.js.map",
     "index.html": "/ddquy.com/index.html",
-    "precache-manifest.523174de0ab9e12839e2d653eaf4bdd9.js": "/ddquy.com/precache-manifest.523174de0ab9e12839e2d653eaf4bdd9.js",
+    "precache-manifest.c7c42e1487ae8ad16f0c7aab42a22a0e.js": "/ddquy.com/precache-manifest.c7c42e1487ae8ad16f0c7aab42a22a0e.js",
     "service-worker.js": "/ddquy.com/service-worker.js",
     "static/css/2.adc0603d.chunk.css.map": "/ddquy.com/static/css/2.adc0603d.chunk.css.map",
     "static/css/main.cba352c8.chunk.css.map": "/ddquy.com/static/css/main.cba352c8.chunk.css.map",
-    "static/js/2.f4400daa.chunk.js.LICENSE.txt": "/ddquy.com/static/js/2.f4400daa.chunk.js.LICENSE.txt",
+    "static/js/2.643012ec.chunk.js.LICENSE.txt": "/ddquy.com/static/js/2.643012ec.chunk.js.LICENSE.txt",
     "static/media/2048.gif": "/ddquy.com/static/media/2048.4d98ec31.gif",
     "static/media/Insta-bot.gif": "/ddquy.com/static/media/Insta-bot.e77e8845.gif",
     "static/media/almen-ng.jpg": "/ddquy.com/static/media/almen-ng.36d69819.jpg",
+    "static/media/andrew-rosselet.jpg": "/ddquy.com/static/media/andrew-rosselet.1aa802f6.jpg",
     "static/media/dj-manager.gif": "/ddquy.com/static/media/dj-manager.3633f02f.gif",
     "static/media/flappy-bird.gif": "/ddquy.com/static/media/flappy-bird.e3c77c1d.gif",
     "static/media/jordan-st-jacques.jpg": "/ddquy.com/static/media/jordan-st-jacques.995cd269.jpg",
@@ -33,10 +34,10 @@
     "static/media/stockPlatform.gif": "/ddquy.com/static/media/stockPlatform.6923a163.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.87e9269f.js",
+    "static/js/runtime-main.bbc8eb8e.js",
     "static/css/2.adc0603d.chunk.css",
-    "static/js/2.f4400daa.chunk.js",
+    "static/js/2.643012ec.chunk.js",
     "static/css/main.cba352c8.chunk.css",
-    "static/js/main.75c5c6ed.chunk.js"
+    "static/js/main.207c5e43.chunk.js"
   ]
 }
