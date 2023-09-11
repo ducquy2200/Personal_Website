@@ -52,16 +52,16 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-5 col.md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
-                            <FacebookShareButton url={"https://ducquy2200.github.io/ddquy.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
+                            <FacebookShareButton url={"https://quyducdo.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
                                 <FacebookIcon className="mx-3" size={36}/>
                             </FacebookShareButton>
-                            <TwitterShareButton url={"https://ducquy2200.github.io/ddquy.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
+                            <TwitterShareButton url={"https://quyducdo.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
                                 <TwitterIcon className="mx-3" size={36} />
                             </TwitterShareButton>
-                            <RedditShareButton url={"https://ducquy2200.github.io/ddquy.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
+                            <RedditShareButton url={"https://quyducdo.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
                                 <RedditIcon className="mx-3" size={36} />
                             </RedditShareButton>
-                            <LinkedinShareButton url={"https://ducquy2200.github.io/ddquy.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
+                            <LinkedinShareButton url={"https://quyducdo.com/"} quote={"Quy Duc Do - Software Engineer Personal Website"}>
                                 <LinkedinIcon className="mx-3" size={36} />
                             </LinkedinShareButton>
                         </div>
