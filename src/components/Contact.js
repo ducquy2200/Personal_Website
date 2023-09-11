@@ -3,12 +3,12 @@ import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 
 const Contact = () => {
-    const [successMessage, setSuccessMessage] = useState("");
+    const [message, setMessage] = useState("");
     const { register, formState:{ errors }, handleSubmit} = useForm();
 
     const serviceID = "service_ID";
     const templateID = "template_ID";
-    const userID = "user_n5kU27k0qRbofHnBolOpe";
+    const userID = "znCS_PFKBfsW3cjrf";
 
     const onSubmit = (data, r) => {
         sendEmail(
@@ -28,9 +28,11 @@ const Contact = () => {
 
     const sendEmail = (serviceID, templateID, variables, userID) => {
         emailjs.send(serviceID, templateID, variables, userID)
-            .then((result) => {
-                setSuccessMessage("Form sent successfully! I will contact you as soon as possible.");
-            }).catch(err => console.error(`Something went wrong: ${err}`));
+            .then(setMessage("Form sent successfully! I will contact you as soon as possible."))
+            .catch(err => {
+                setMessage(`Something went wrong! Please try again later or contact me directly through ducquy2200@gmail.com!`);
+                console.error(`Something went wrong: ${err.text}`);
+            });
     };
     
     return (
@@ -40,7 +42,7 @@ const Contact = () => {
                 <p>
                     Please fill out the form and I will contact you as soon as possible.
                 </p>
-                <span className="success-message">{successMessage}</span>
+                <span className={message.startsWith("Something went wrong!") ? "failure-message" : "success-message"}>{message}</span>
             </div>
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
