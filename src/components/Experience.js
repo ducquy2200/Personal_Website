@@ -102,7 +102,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>May 2023 - Aug 2023</h3>
                         <h4>Software Engineer at Geotab</h4>
-                        <h5><b>Oakville, IL, Canada</b></h5>
+                        <h5><b>Oakville, ON, Canada</b></h5>
                         <ul>
                         </ul>
                     </div>
