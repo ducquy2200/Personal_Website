@@ -1,6 +1,6 @@
 {
-  "homepage": "https://quyducdo.com/home/",
-  "name": "home",
+  "homepage": "https://quyducdo.com/",
+  "name": "personal_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
