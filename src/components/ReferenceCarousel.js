@@ -1,11 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import avatar0 from './media/references/courtney-zinn.jpg';
-import avatar1 from './media/references/jordan-st-jacques.jpg';
-import avatar2 from './media/references/razmin-soltani.jpg';
-import avatar3 from './media/references/joy-xu.jpg';
-import avatar4 from './media/references/almen-ng.jpg';
+import avatar1 from './media/references/almen-ng.jpg';
+import avatar2 from './media/references/joy-xu.jpg';
+import avatar3 from './media/references/razmin-soltani.jpg';
+import avatar4 from './media/references/jordan-st-jacques.jpg';
+import avatar5 from './media/references/courtney-zinn.jpg';
+import avatar6 from './media/references/andrew-rosselet.jpg';
 
 const ReferenceCarousel = () => {
     return (
@@ -18,7 +19,15 @@ const ReferenceCarousel = () => {
             interval={4000}
         >
             <>
-                <img src={avatar0} alt="Courtney Zinn" />
+                <img src={avatar6} alt="Andrew Rosselet" />
+                <div className="myCarousel">
+                    <h3>Andrew Rosselet</h3>
+                    <p>Senior Software Developer<br />Geotab</p>
+                    <a href="https://www.linkedin.com/in/andrew-rosselet-9bb7ab2a/" target="_blank" rel="noopener noreferrer" className="reference-link">LinkedIn Profile</a>
+                </div>
+            </>
+            <>
+                <img src={avatar5} alt="Courtney Zinn" />
                 <div className="myCarousel">
                     <h3>Courtney Zinn</h3>
                     <p>Director of Digital Kitchener Innovation Lab<br/>City of Kitchener</p>
@@ -26,7 +35,7 @@ const ReferenceCarousel = () => {
                 </div>
             </>
             <>
-                <img src={avatar1} alt="Jordan St Jacques"/>
+                <img src={avatar4} alt="Jordan St Jacques"/>
                 <div className="myCarousel">
                     <h3>Jordan St Jacques</h3>
                     <p>President and Lead Digital Marketer<br/>Digitera Interactive</p>
@@ -34,7 +43,7 @@ const ReferenceCarousel = () => {
                 </div>
             </>
             <>
-                <img src={avatar2} alt="Razmin Soltani" />
+                <img src={avatar3} alt="Razmin Soltani" />
                 <div className="myCarousel">
                     <h3>Razmin Soltani</h3>
                     <p>Senior Software Engineer<br/>Walletifai</p>
@@ -42,7 +51,7 @@ const ReferenceCarousel = () => {
                 </div>
             </>
             <>
-                <img src={avatar3} alt="Joy Xu" />
+                <img src={avatar2} alt="Joy Xu" />
                 <div className="myCarousel">
                     <h3>Joy Xu</h3>
                     <p>Founder and Chief Executive Officer<br/>Felicity</p>
@@ -50,7 +59,7 @@ const ReferenceCarousel = () => {
                 </div>
             </>
             <>
-                <img src={avatar4} alt="Almen Ng" />
+                <img src={avatar1} alt="Almen Ng" />
                 <div className="myCarousel">
                     <h3>Almen Ng</h3>
                     <p>Tech Lead and Software Engineer<br/>Felicity</p>
