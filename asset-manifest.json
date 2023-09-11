@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.75a11667.chunk.css",
-    "main.js": "/static/js/main.05cc599e.chunk.js",
-    "main.js.map": "/static/js/main.05cc599e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.67bc56b6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.67bc56b6.js.map",
+    "main.js": "/static/js/main.53987bd1.chunk.js",
+    "main.js.map": "/static/js/main.53987bd1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b99d559a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b99d559a.js.map",
     "static/css/2.adc0603d.chunk.css": "/static/css/2.adc0603d.chunk.css",
-    "static/js/2.643012ec.chunk.js": "/static/js/2.643012ec.chunk.js",
-    "static/js/2.643012ec.chunk.js.map": "/static/js/2.643012ec.chunk.js.map",
-    "static/js/3.7274e60e.chunk.js": "/static/js/3.7274e60e.chunk.js",
-    "static/js/3.7274e60e.chunk.js.map": "/static/js/3.7274e60e.chunk.js.map",
+    "static/js/2.18ed7083.chunk.js": "/static/js/2.18ed7083.chunk.js",
+    "static/js/2.18ed7083.chunk.js.map": "/static/js/2.18ed7083.chunk.js.map",
+    "static/js/3.91355d7c.chunk.js": "/static/js/3.91355d7c.chunk.js",
+    "static/js/3.91355d7c.chunk.js.map": "/static/js/3.91355d7c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f28c7dea1b692eb30b3fd0ea16096d8c.js": "/precache-manifest.f28c7dea1b692eb30b3fd0ea16096d8c.js",
+    "precache-manifest.7fa08de581a5b98f6c5e97d3417e5598.js": "/precache-manifest.7fa08de581a5b98f6c5e97d3417e5598.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.adc0603d.chunk.css.map": "/static/css/2.adc0603d.chunk.css.map",
     "static/css/main.75a11667.chunk.css.map": "/static/css/main.75a11667.chunk.css.map",
-    "static/js/2.643012ec.chunk.js.LICENSE.txt": "/static/js/2.643012ec.chunk.js.LICENSE.txt",
+    "static/js/2.18ed7083.chunk.js.LICENSE.txt": "/static/js/2.18ed7083.chunk.js.LICENSE.txt",
     "static/media/2048.gif": "/static/media/2048.4d98ec31.gif",
     "static/media/Insta-bot.gif": "/static/media/Insta-bot.e77e8845.gif",
     "static/media/almen-ng.jpg": "/static/media/almen-ng.36d69819.jpg",
@@ -34,10 +34,10 @@
     "static/media/stockPlatform.gif": "/static/media/stockPlatform.6923a163.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.67bc56b6.js",
+    "static/js/runtime-main.b99d559a.js",
     "static/css/2.adc0603d.chunk.css",
-    "static/js/2.643012ec.chunk.js",
+    "static/js/2.18ed7083.chunk.js",
     "static/css/main.75a11667.chunk.css",
-    "static/js/main.05cc599e.chunk.js"
+    "static/js/main.53987bd1.chunk.js"
   ]
 }
