@@ -48,14 +48,16 @@ const Experience = () => {
                         <h4>Software Engineer | Firmware Developer at Midnight Sun Solar Race Car Team</h4>
                         <h5><b>Waterloo, ON, Canada</b></h5>
                         <ul>
-                            <li>*To be updated</li>
+                            <li>Regulated power distribution for battery PCB board</li>
+                            <li>Designed middleware pipelines between multiple automated car components</li>
+                            <li>Managed and maintained data communication with cloud services for debugging and metrics tracking</li>
                         </ul>
                     </div>
                 </div>
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>Jun 2021 - Present</h3>
+                        <h3>Jun 2021 - Aug 2022</h3>
                         <h4>Software Engineer | Mobile Developer at Felicity</h4>
                         <h5><b>Waterloo, ON, Canada</b></h5>
                         <ul>
@@ -78,6 +80,30 @@ const Experience = () => {
                             <li>Utilized transfer learning technique to implement a pothole detection pipeline using <b>Jupiter Notebook, Tensorflow Object Detection API</b> and Kitchener's 360-degree image pothole private datasets</li>
                             <li>Constructed linear regression time-series pipeline from Kitchener's Geotab datasets using <b>Jupiter Notebook and Scikit-learn</b> to predict future trends in runtime usage in relation to the variation of the task application</li>
                             <li>Created prototype sample of snow level detection with realtime data feed and representation using <b>Raspberry Pi, Ultrasonic Sensor, AWS S3, and Power Bi</b></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>Sep 2022 - Dec 2022</h3>
+                        <h4>Software Engineer | Full Stack Developer at Mediafly</h4>
+                        <h5><b>Chicaco, IL, United States</b></h5>
+                        <ul>
+                            <li>Designed, architected, and implemented a share pipeline service allowing non-users to interact with the application without an internal account using <b>React Typescript and ASP.NET Core</b>, increased in exposure by 18% in 2 weeks</li>
+                            <li>Created a <b>Swagger/OpenAPI RESTful API</b> to interface with <b>AWS MySQL</b> database with administration access to data</li>
+                            <li>Enhanced existing features in <b>React Typescript MUI</b> frontend, legacy <b>Django REST Framework</b> backend and <b>ASP.NET Core</b> backend as per customer request</li>
+                            <li>Created over 20 fully customized components using <b>React Material UI</b> with extensive usage instruction documentations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>May 2023 - Aug 2023</h3>
+                        <h4>Software Engineer at Geotab</h4>
+                        <h5><b>Oakville, IL, Canada</b></h5>
+                        <ul>
                         </ul>
                     </div>
                 </div>

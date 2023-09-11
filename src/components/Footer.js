@@ -9,13 +9,16 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <a href="http://maps.google.com/?q=Unit%20107%2C%20271%20Westcourt%20Place%2C%20Waterloo%20N2L%202R8%2C%20Ontario%2C%20Canada" target="_blank" rel="noopener noreferrer">Address: Unit 107, 271 Westcourt Place, Waterloo N2L 2R8, Ontario, Canada</a>
+                            <a href="http://maps.google.com/?q=Unit%20107%2C%20271%20Westcourt%20Place%2C%20Waterloo%20N2L%202R8%2C%20Ontario%2C%20Canada" target="_blank" rel="noopener noreferrer">Address: Unit 104, 271 Westcourt Place, Waterloo N2L 2R8, Ontario, Canada</a>
                         </div>
                         <div className="d-flex">
                             <a href="tel:+12268991314">Tel: +1(226)899-1314</a>
                         </div>
                         <div className="d-flex">
-                            <a href="mailto:ducquy2200@gmail.com">Email: ducquy2200@gmail.com</a>
+                            <a href="mailto:ducquy2200@gmail.com">Personal Email: ducquy2200@gmail.com</a>
+                        </div>
+                        <div className="d-flex">
+                            <a href="mailto:qd2do@uwaterloo.ca">Business Email: qd2do@uwaterloo.ca</a>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">

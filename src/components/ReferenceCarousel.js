@@ -22,7 +22,7 @@ const ReferenceCarousel = () => {
                 <img src={avatar6} alt="Andrew Rosselet" />
                 <div className="myCarousel">
                     <h3>Andrew Rosselet</h3>
-                    <p>Senior Software Developer<br />Geotab</p>
+                    <p>Senior Software Developer<br/>Geotab</p>
                     <a href="https://www.linkedin.com/in/andrew-rosselet-9bb7ab2a/" target="_blank" rel="noopener noreferrer" className="reference-link">LinkedIn Profile</a>
                 </div>
             </>
